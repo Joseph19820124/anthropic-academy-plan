@@ -9,6 +9,8 @@ title: Bonus — Brain/Hands/Loop Agent Build
 
 > **Slot:** end of Week 2 weekend (Day 14) or any rest-day buffer · **Time:** 90 min focused, optional extensions · **Status:** opt-in, not mandatory
 
+> ⚡ **Pre-scaffolded reference build:** [Joseph19820124/inbox-agent](https://github.com/Joseph19820124/inbox-agent) — full agent already written (~270 lines), all 9 npm deps installed, TypeScript clean, `DRY_RUN=1` mock loop verified. Day 14 to-do reduces to: clone the repo (or use your local `~/inbox-agent/`), drop in API keys, verify Zapier action names, run. **~30 minutes instead of 90.**
+
 ---
 
 ## What this is
@@ -35,11 +37,12 @@ End state: a working inbox triage agent in `~/inbox-agent/`, and a note document
 └──────────┘       └──────────┘       └──────────┘
 ```
 
-| Piece | Standard Skool stack | Joseph-adapted stack |
+| Piece | Standard Skool stack | Joseph-adapted stack (already in [inbox-agent](https://github.com/Joseph19820124/inbox-agent)) |
 |-------|---------------------|---------------------|
-| Brain | OpenRouter (one key, ~5% markup, +100-300ms latency) | **Your own provider clients** (Claude via Anthropic API or `codex-oauth-client`/`gemini-codeassist-client` for subscription billing) |
-| Hands | Zapier SDK (9000 apps, OAuth automated) | **Compare both**: Zapier SDK *and* a custom MCP server, decide which fits which use case |
+| Brain | OpenRouter (one key, ~5% markup, +100-300ms latency) | **Direct providers** — `@ai-sdk/anthropic` + `@ai-sdk/google` switchable via `BRAIN=claude\|gemini` env var, no middleman |
+| Hands | Zapier SDK (9000 apps, OAuth automated) | **Zapier SDK** (variant A, pre-wired) + optional custom MCP server (variant B, scaffold yourself) |
 | Loop | Vercel AI SDK (`ai@^6`) | Same — already the de-facto standard in `ggcoder` / `opencode` |
+| Verification | Run it and see if it works | **Hermetic `DRY_RUN=1` mode** using `MockLanguageModelV3` from `ai/test` — proves architecture without burning quota |
 
 ---
 
