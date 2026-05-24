@@ -1,0 +1,8 @@
+title: "Joseph's Anthropic Academy Plan"
+description: "A 4-week, 30-hour structured study plan for Anthropic Academy courses, tailored for a senior cloud / backend engineer."
+theme: jekyll-theme-cayman
+show_downloads: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
