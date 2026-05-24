@@ -64,6 +64,7 @@ Not your target audience — these aren't worth your time:
 ### Quick week index
 - [Week 1: Foundations](PLAN.md#week-1--foundations) — May 25–31, 2026
 - [Week 2: API depth](PLAN.md#week-2--api-depth) — Jun 1–7, 2026
+- 🎁 [Bonus: Brain/Hands/Loop agent build](BONUS_AGENT_BUILD.md) — opt-in, Week 2→3 bridge
 - [Week 3: Protocols (MCP + Bedrock)](PLAN.md#week-3--protocols-mcp--bedrock) — Jun 8–14, 2026
 - [Week 4: Agentic + capstone](PLAN.md#week-4--agentic--capstone) — Jun 15–21, 2026
 

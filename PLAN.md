@@ -88,8 +88,11 @@ title: Daily Plan
 
 ### Day 14 · Sun · 2026-06-07 · 60 min
 - [ ] Buffer: tests for `claude-provider` branch, open a PR draft
+- [ ] **(Optional, 90 min)** **Bonus build:** Brain/Hands/Loop inbox agent — see [BONUS_AGENT_BUILD.md](BONUS_AGENT_BUILD.md)
 
 **🎯 Week 2 checkpoint:** `claude-provider` branch on `codex-oauth-client` exists with streaming + tests + draft PR linking back to this plan.
+
+> 💡 **The bonus is opt-in but recommended** — it's the Week 2→Week 3 bridge that gives you the "why MCP matters" intuition before Week 3's curriculum lands. Skip only if Week 2 deliverable ran over.
 
 ---
 
