@@ -69,7 +69,12 @@ Not your target audience — these aren't worth your time:
 - [Week 4: Agentic + capstone](PLAN.md#week-4--agentic--capstone) — Jun 15–21, 2026
 
 ### 📚 External references
-- [Ken Kai's autoblogger build demo (2026-05-25)](references/kenkai-blog-build-2026-05-25.md) — Skool community live demo by the ggcoder maintainer; transferable prompt-template + 5 prompting principles + "simulate at scale" mindset
+
+The list below is auto-generated from `references/*.md` by the `update-references-index` GitHub Action. To add a new reference: drop a markdown file into `references/`, push, and the bot updates this section on the next commit. Manual edits between the markers will be overwritten.
+
+<!-- references:start -->
+- [Reference — Ken Kai blog-build demo (2026-05-25)](references/kenkai-blog-build-2026-05-25.md) — Source: Fathom recording · 126 min · hosted in The AI Accelerator Skool community.
+<!-- references:end -->
 
 ---
 
