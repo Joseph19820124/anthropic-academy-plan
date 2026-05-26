@@ -68,6 +68,9 @@ Not your target audience — these aren't worth your time:
 - [Week 3: Protocols (MCP + Bedrock)](PLAN.md#week-3--protocols-mcp--bedrock) — Jun 8–14, 2026
 - [Week 4: Agentic + capstone](PLAN.md#week-4--agentic--capstone) — Jun 15–21, 2026
 
+### 📚 External references
+- [Ken Kai's autoblogger build demo (2026-05-25)](references/kenkai-blog-build-2026-05-25.md) — Skool community live demo by the ggcoder maintainer; transferable prompt-template + 5 prompting principles + "simulate at scale" mindset
+
 ---
 
 ## How to use this repo

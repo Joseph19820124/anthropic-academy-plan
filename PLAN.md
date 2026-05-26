@@ -61,6 +61,8 @@ title: Daily Plan
 
 **Exercise:** in [codex-oauth-client](https://github.com/Joseph19820124/codex-oauth-client), check if your error handling matches Anthropic's recommendations.
 
+> 📚 **Reference for Week 2:** [Ken Kai's autoblogger demo (2026-05-25)](references/kenkai-blog-build-2026-05-25.md) — captures the research-prompt template + 5 prompting principles directly usable in this week's exercises.
+
 ### Day 9 · Tue · 2026-06-02 · 60 min
 - [ ] **Building with the Claude API** — Part 2 (60 min): tool use, streaming
 
